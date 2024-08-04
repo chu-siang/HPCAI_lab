@@ -5,8 +5,6 @@ Labs from NTHU HPC AI camp
 ## CUDA Lab
 The CUDA lab contains the code file `MATRIX_MUL_GPU.CU` which demonstrates matrix multiplication using CUDA. The code includes a CUDA kernel `matrixMulKernel` that performs the matrix multiplication on the GPU. The lab also provides a `matrixMultiplyGPU` function that allocates device memory and invokes the CUDA kernel. To compile and run the code, use the command `nvc++ matrix_mul_gpu.cu -o matrix_mul_gpu`.
 
-
-
 ### Configuration for CUDA in [`MATRIX_MUL_GPU.CU`]
 
 1. **CUDA Kernel**: The CUDA kernel [`matrixMulKernel`] performs the matrix multiplication on the GPU.
